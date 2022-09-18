@@ -1,6 +1,7 @@
 package week1;
 
 public class HelloWorld {
+    
     public static void main(String[] args) {
 
 
@@ -9,10 +10,12 @@ public class HelloWorld {
         System.out.println("hey");
 
         int a = 5;
-        int b = 10;
+        int b = 170;
 
-        System.out.println(a+b);
+        int Connor = a*b;
 
-    
+        System.out.println(Connor + " These are connor numbers ");
+
+       
     }
 }
