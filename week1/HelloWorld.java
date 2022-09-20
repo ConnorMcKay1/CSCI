@@ -9,7 +9,7 @@ public class HelloWorld {
     
         System.out.println("hey");
 
-        int a = 5;
+        int a = 51;
         int b = 170;
 
         int Connor = a*b;
