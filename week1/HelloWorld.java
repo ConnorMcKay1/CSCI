@@ -11,11 +11,16 @@ public class HelloWorld {
 
         int a = 51;
         int b = 170;
+        int c = 158000;
+
 
         int Connor = a*b;
+        int NewConnor = Connor + c;
 
-        System.out.println(Connor + " These are connor numbers ");
+        System.out.println(NewConnor + " These are connor numbers ");
+        
+        
 
-       
+
     }
 }
