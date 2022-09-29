@@ -7,13 +7,24 @@ public class HelloWorld {
 
     
 
-    for (int i = 0; i < 10; i++); {
+//  for (int i = 0; i < 10; i++); {
+//
+//       System.out.println("he");
+//
+//}
 
-        System.out.println("he");
 
-    }
-        
-        
+String s = "Hello";
+upperCase(u);
+
+
+String t = "Jon";
+
+
+
+public static void upperCase (String u){
+
+    System.out.println(upperCase.toUpperCase);
 
 
     }
