@@ -54,10 +54,24 @@ public class HelloWorld {
  *      PROBLEM 2
  * 
  * 
+ * do you think that there is a way to make have some thing that continues to add one more
+ * character of whatever it is untill it prints it out to the desired amount of times.
+ * -an idea ( [print]a = #, count = 0 (start print here), count <5 (prints untill the counter reaches under 5)))
+ * 
+ * 
+ * or you could have a bunch of variables that are listed as different amounts of #'s
+ * -like a = "#"
+ *       b = "##"
+ *       c = "###"
+ *       d = "####"
+ *         ...
+ * 
+ * and then reference them in the main method in the order that they are supposed to appear
  * 
  * 
  * 
  * 
+ * ------------------------------------------------------------------------------------------------------
  * 
  * 
  * 
