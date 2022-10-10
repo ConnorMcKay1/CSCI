@@ -38,7 +38,7 @@ public class HelloWorld {
 
 
 /*-----------------------------------------------------------------------------------------------------
-        PROBLEM 1
+        PROBLEM ADDING
 
  * 
  * put the addition method (machine) in another class (tab)
@@ -50,8 +50,22 @@ public class HelloWorld {
  * 
  * 
  * 
+ *      public int x = 9;
+ *      public int y = 5;
+ * 
+ * public void Adding(){
+ * 
+ * 
+ * something in here (the machine) about adding the 2 ints and shipping them out to the main method.
+ * 
+ * 
+ * }
+ * 
+ * 
+ * 
+ * 
  * ------------------------------------------------------------------------------------------------------
- *      PROBLEM 2
+ *      PROBLEM PYRAMID
  * 
  * 
  * do you think that there is a way to make have some thing that continues to add one more
@@ -68,11 +82,21 @@ public class HelloWorld {
  * 
  * and then reference them in the main method in the order that they are supposed to appear
  * 
+ * -greg mentions something about the method for the pyramid being void and not gonna return a value
+ *     -so check back to last thursdays lecture where he makes void methods that don't automatically return stuff 
+ * 
+ * 
+ * ------------------------------------------------------------------------------------------------------
+ *      PROBLEM REPLACE
+ * 
+ * look at the past zoom lecture where greg uses BLACK and remorves B so its just LACK, may its something
+ * like that
+ * 
+ * 
  * 
  * 
  * 
  * ------------------------------------------------------------------------------------------------------
- * 
  * 
  * 
  * 
