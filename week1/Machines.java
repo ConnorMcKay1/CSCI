@@ -1,26 +1,26 @@
-package week1;
+public class Machines {
 
-public class Machines.java {
-
-
-
-public int x = x1;
-public int y = y1;
+    public static void main(String[] args) {
 
 
 
 
-public Machines(int x) {
 
-this.x = x;
+
+
+
+
+
+
+
+    }
+
+
+public static void adding(int i) {
+
+    System.out.println(i + 2);
+}
+
 
 }
 
-public Machines(int y) {
-
-this.y = y;
-
-}
-
-
-}
