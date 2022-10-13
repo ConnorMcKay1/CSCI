@@ -8,18 +8,42 @@ public class HelloWorld {
     public static void main(String[] args) {
 
 
+        // String s = "hellow";
+        // adding(s);
 
-        // Write some code here to print out the sum of 2 and 3 to the console.
-
-
-        Machines x1a = new Machines(x: 1);
-        
-        Machines y1a = new Machines(y: 2);
+        // String s1 = "Connor";
+        // adding(s1);
 
 
-        System.out.println(x1a.x);
+        int x =3;
+        adding(x);
+    }
+
+public static void adding(int i) {
+
+    System.out.println(i + 2);
+
+}
 
 
+
+// public static void adding(int i) {
+
+//     System.out.println(i + 2);
+// }
+
+
+// public static void addingMachine(int i) {
+
+//     System.out.println();
+
+// }
+
+
+
+
+
+}
 
 
         //Write some code here to call the Output method from the Pyramid class.
@@ -28,13 +52,6 @@ public class HelloWorld {
         // Note2: Look at Pyramid.java for more information
 
 
-
-        
-
-
-
-
-        
 
 
 /*-----------------------------------------------------------------------------------------------------
@@ -60,6 +77,25 @@ public class HelloWorld {
  * 
  * 
  * }
+ * 
+ * 
+ *                       --- THIS IS THE ANSWER ---
+ * 
+ * 
+        int x =3;
+        adding(x);
+    }
+
+public static void adding(int i) {          //put this bit outside of the main method
+
+    System.out.println(i + 2);
+
+}
+
+
+ * 
+ * 
+ * 
  * 
  * 
  * 
@@ -147,6 +183,3 @@ public class HelloWorld {
 
 //     System.out.println(upperCase.toUpperCase);
 
-
-    }
-}
