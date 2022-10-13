@@ -8,22 +8,6 @@ public class HelloWorld {
     public static void main(String[] args) {
 
 
-        // String s = "hellow";
-        // adding(s);
-
-        // String s1 = "Connor";
-        // adding(s1);
-
-
-        int x =3;
-        adding(x);
-    }
-
-public static void adding(int i) {
-
-    System.out.println(i + 2);
-
-}
 
 
 
@@ -40,10 +24,23 @@ public static void adding(int i) {
 // }
 
 
+int x = 2;
+int y = 3;
 
+System.out.println(addingMachineNew(x, y));
+
+}
+
+public static int addingMachineNew(int x1, int y1) {
+    int sum = x1 + y1;
+    return sum;
+}
 
 
 }
+
+
+
 
 
         //Write some code here to call the Output method from the Pyramid class.
@@ -86,11 +83,31 @@ public static void adding(int i) {
         adding(x);
     }
 
-public static void adding(int i) {          //put this bit outside of the main method
+public static void adding(int i) {          |//put this bit outside of the main method
+                                            |
+    System.out.println(i + 2);              |
+                                            |
+}                                           |
 
-    System.out.println(i + 2);
+
+
+                        --- OR YOU CAN USE THIS ---
+
+int x = 2;
+int y = 3;
+
+System.out.println(addingMachineNew(x, y));
 
 }
+
+public static int addingMachineNew(int x1, int y1) {        |   this part stil gets put outside of
+    int sum = x1 + y1;                                      |   the main method
+    return sum;                                             |
+}
+
+
+
+
 
 
  * 
