@@ -1,5 +1,7 @@
 package week1;
 
+import java.util.Scanner;
+
 import javafx.scene.shape.Rectangle;
 
 
@@ -8,26 +10,42 @@ public class HelloWorld {
     public static void main(String[] args) {
 
 
+// int x = 2;
+// int y = 7;
+
+// System.out.println(addingMachineNew(x, y));
+
+// Scanner s = new Scanner(System.in);
+
+// String word = s.nextLine();
+
+// int word1 = wordLength(word);
+// System.out.println(word1);
+
+
+String bread = "I MAKE BREAD";
+int index = 2;
+char replace = 'T';
+
+//String finalAnswer = replacingLetters(bread, index, replace);
+System.out.println(replacingLetters(bread, index, replace));
 
 
 
-// public static void adding(int i) {
 
-//     System.out.println(i + 2);
-// }
+// bread = bread.substring(0, index) + replace 
+//             + bread.substring(index + 1);
+// System.out.println(bread);
 
-
-// public static void addingMachine(int i) {
-
-//     System.out.println();
-
-// }
+// System.out.println(bread.replace('M', 'T'));
 
 
-int x = 2;
-int y = 3;
 
-System.out.println(addingMachineNew(x, y));
+//System.out.println("hello, my name is" + variable(string) + "and I like to " + variable(string) + "because I'm only " + variable(int) + "years old.");
+
+
+
+
 
 }
 
@@ -35,6 +53,21 @@ public static int addingMachineNew(int x1, int y1) {
     int sum = x1 + y1;
     return sum;
 }
+
+public static int wordLength(String word) {
+
+    return word.length();
+
+}
+
+public static string replacingLetters(String bread, int index, char replace) {
+
+    bread = bread.substring(0, index) + replace 
+            + bread.substring(index + 1);
+    return bread;
+
+}
+
 
 
 }
@@ -107,14 +140,6 @@ public static int addingMachineNew(int x1, int y1) {        |   this part stil g
 
 
 
-
-
-
- * 
- * 
- * 
- * 
- * 
  * 
  * 
  * ------------------------------------------------------------------------------------------------------
@@ -149,7 +174,31 @@ public static int addingMachineNew(int x1, int y1) {        |   this part stil g
  * 
  * 
  * 
+ *                                  --- THIS IS THE ANSWER ---
+ * 
+ * 
+ * 
+ *      String bread = "I MAKE BREAD";
+        int index = 2;
+        char replace = 'T';
+
+        bread = bread.substring(0, index) + replace 
+            + bread.substring(index + 1);
+        System.out.println(bread);
+
+        System.out.println(bread.replace('M', 'T'));
+ *  
+ * 
+ *  
  * ------------------------------------------------------------------------------------------------------
+ *      PROBLEM ADLIBS
+ * 
+ * 
+ *      [probably do something like this]
+ * //System.out.println("hello, my name is" + variable(string) + "and I like to " + variable(string) + "because I'm only " + variable(int) + "years old.");
+
+ * 
+ * 
  * 
  * 
  * 
