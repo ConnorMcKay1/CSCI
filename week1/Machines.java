@@ -6,7 +6,7 @@ public class Machines {
 
 
 
-
+System.out.println("he");
 
 
 
@@ -19,6 +19,4 @@ public class Machines {
 
 }
 
-
-}
 
