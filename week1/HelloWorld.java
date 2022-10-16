@@ -9,39 +9,9 @@ public class HelloWorld {
     
     public static void main(String[] args) {
 
-
-// int x = 2;
-// int y = 7;
-
-// System.out.println(addingMachineNew(x, y));
-
-// Scanner s = new Scanner(System.in);
-
-// String word = s.nextLine();
-
-// int word1 = wordLength(word);
-// System.out.println(word1);
-
-
-String bread = "I MAKE BREAD";
-int index = 2;
-char replace = 'T';
-
-//String finalAnswer = replacingLetters(bread, index, replace);
-System.out.println(replacingLetters(bread, index, replace));
-
-
-
-
-// bread = bread.substring(0, index) + replace 
-//             + bread.substring(index + 1);
-// System.out.println(bread);
-
-// System.out.println(bread.replace('M', 'T'));
-
-
-
-//System.out.println("hello, my name is" + variable(string) + "and I like to " + variable(string) + "because I'm only " + variable(int) + "years old.");
+        
+    Access a = new Machines();
+    System.out.println(a.namePublic);
 
 
 
@@ -60,13 +30,13 @@ public static int wordLength(String word) {
 
 }
 
-public static string replacingLetters(String bread, int index, char replace) {
+// public static string replacingLetters(String bread, int index, char replace) {
 
-    bread = bread.substring(0, index) + replace 
-            + bread.substring(index + 1);
-    return bread;
+//     bread = bread.substring(0, index) + replace 
+//             + bread.substring(index + 1);
+//     return bread;
 
-}
+// }
 
 
 
