@@ -1,20 +1,9 @@
 public class Machines {
 
-    public static void main(String[] args) {
 
+public String namePublic = "connor";
 
-
-
-
-System.out.println("he");
-
-
-
-
-
-
-    }
-
+public String name2Public = "sam";
 
 
 }
