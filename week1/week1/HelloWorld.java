@@ -10,21 +10,12 @@ public class HelloWorld {
     public static void main(String[] args) {
 
     
-System.out.println("hello, my name is ______ and I like to _____  because I'm only _____ years old.");
+            System.out.println(Machines.pyramid(null));
 
 
-        Scanner scan1 = new Scanner(System.in);
-        String word1 = scan1.nextLine();
 
-        Scanner scan2 = new Scanner(System.in);
-        String word2 = scan2.nextLine();
 
-        Scanner scan3 = new Scanner(System.in);
-        int number = scan3.nextInt();
-       
-        System.out.println(Machines.adlibs(word1, word2, number));
-
-}
+        }
 
 public static int addingMachineNew(int x1, int y1) {
     int sum = x1 + y1;
