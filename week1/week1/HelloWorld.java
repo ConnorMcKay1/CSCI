@@ -9,8 +9,15 @@ public class HelloWorld {
     
     public static void main(String[] args) {
 
-    
-            System.out.println(Machines.pyramid(null));
+
+
+
+
+int n = 49;
+
+System.out.println(Math.sqrt(n) );
+
+
 
 
 
