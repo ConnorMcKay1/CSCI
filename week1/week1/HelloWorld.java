@@ -11,18 +11,14 @@ public class HelloWorld {
 
 
 
+       Machines machine = new Machines();
 
-
-int n = 49;
-
-System.out.println(Math.sqrt(n) );
-
-
-
-
-
+         System.out.println(machine.nameLength(machine.getName()));
+        System.out.println(machine.nameUpperCase(machine.getName()));
 
         }
+
+
 
 public static int addingMachineNew(int x1, int y1) {
     int sum = x1 + y1;
@@ -45,7 +41,17 @@ public static String replacingLetters(String bread, int index, char replace) {
 
 
 
+   public static int squareRoot(int n1, int n2) {
+    
+    int hypotenuse = sqrt(n1^2+n2^2);
+
+    return hypotenuse;
+
+   } 
+
 }
+
+
 
 
 
@@ -121,22 +127,69 @@ public static int addingMachineNew(int x1, int y1) {        |   this part stil g
  *      PROBLEM PYRAMID
  * 
  * 
- * do you think that there is a way to make have some thing that continues to add one more
- * character of whatever it is untill it prints it out to the desired amount of times.
- * -an idea ( [print]a = #, count = 0 (start print here), count <5 (prints untill the counter reaches under 5)))
+ *                                              SOLVED
+ * 
+ *for (int i = 0; i < 5; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
+
+        for (int i = 4; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
  * 
  * 
- * or you could have a bunch of variables that are listed as different amounts of #'s
- * -like a = "#"
- *       b = "##"
- *       c = "###"
- *       d = "####"
- *         ...
+ * ------------------THIS IS AN ATTEMPT AT A MORE ELEGANT SOLUTION
  * 
- * and then reference them in the main method in the order that they are supposed to appear
  * 
- * -greg mentions something about the method for the pyramid being void and not gonna return a value
- *     -so check back to last thursdays lecture where he makes void methods that don't automatically return stuff 
+ *  String pyramid = "#";
+        int charInitial = 1;
+        int charAmount = MathGames.symbol(charInitial);
+
+
+//MathGames.symbol(charAmount);
+
+MathGames.symbolPyramid(pyramid, charAmount);
+
+System.out.println(symbolPyramid(pyramid, charAmount));
+
+// System.out.println(symbolPyramid(pyramid, symbol(charAmount)));
+
+     }
+
+
+public static int symbol(int charAmount) {
+
+    if (charAmount <= 5 ) {
+
+        System.out.println(charAmount);
+        charAmount ++;
+
+    }
+
+    return charAmount;
+
+}
+
+
+public static String symbolPyramid(String pyramid, int charAmount) {
+
+    String repeated = new String(new char[charAmount]).replace("\0", pyramid);
+
+    return repeated;  
+
+}
+
+ * 
+ * 
+ * 
+ * 
+ * 
  * 
  * 
  * ------------------------------------------------------------------------------------------------------
