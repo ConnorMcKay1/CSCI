@@ -41,7 +41,8 @@ public class BankHW {
 
 
 
-
+//try adding a (double balance) into the argument bellow in the bankacount file
+//also try putting the entire public void method in there as well (under the withdraw method header)
 
 // public void withdraw(double amount) {
 
