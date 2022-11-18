@@ -7,16 +7,39 @@ import javafx.scene.shape.Rectangle;
 
 public class HelloWorld {
     
+ 
     public static void main(String[] args) {
 
 
+       sysout
 
-       Machines machine = new Machines();
 
-         System.out.println(machine.nameLength(machine.getName()));
-        System.out.println(machine.nameUpperCase(machine.getName()));
-
+    }
+    
+    
+    
+    public void overDraft(double balance, double amount) {
+        double outCome = balance-amount;
+        if (outCome <= 0) {
+            System.out.println("You might not have enough money to withdraw that amount, if you do you will be charged a $35 overdraft fee, would you like to continue?");
+            if (answer.equals("Y")) {
+              double overDraftResult = bank.balance - (value + 35);
+                System.out.println("Your new balance is: $" + overDraftResult);
+            } else {
+                System.out.println("You have chosen not to withdraw the money");
+            }
         }
+        else if (outCome > 0) {
+            System.out.println("You have enough money to withdraw that amount, would you like to continue?");
+            }
+        }
+
+
+
+
+
+
+
 
 
 
@@ -50,7 +73,6 @@ public static String replacingLetters(String bread, int index, char replace) {
    } 
 
 }
-
 
 
 
