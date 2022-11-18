@@ -14,6 +14,11 @@ public class HelloWorld {
        System.out.println("hello world");
 
 
+       Machines connor = new Machines();
+
+         connor.BankAccountStudent("Connor", 1000);
+
+            connor.withdraw(100);
     }
     
     
