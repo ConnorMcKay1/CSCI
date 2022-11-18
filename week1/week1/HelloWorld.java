@@ -11,28 +11,14 @@ public class HelloWorld {
     public static void main(String[] args) {
 
 
-       sysout
+       System.out.println("hello world");
 
 
     }
     
     
+
     
-    public void overDraft(double balance, double amount) {
-        double outCome = balance-amount;
-        if (outCome <= 0) {
-            System.out.println("You might not have enough money to withdraw that amount, if you do you will be charged a $35 overdraft fee, would you like to continue?");
-            if (answer.equals("Y")) {
-              double overDraftResult = bank.balance - (value + 35);
-                System.out.println("Your new balance is: $" + overDraftResult);
-            } else {
-                System.out.println("You have chosen not to withdraw the money");
-            }
-        }
-        else if (outCome > 0) {
-            System.out.println("You have enough money to withdraw that amount, would you like to continue?");
-            }
-        }
 
 
 
@@ -62,17 +48,17 @@ public static String replacingLetters(String bread, int index, char replace) {
 
 }
 
-
-
-   public static int squareRoot(int n1, int n2) {
-    
-    int hypotenuse = sqrt(n1^2+n2^2);
-
-    return hypotenuse;
-
-   } 
-
 }
+
+//    public static int squareRoot(int n1, int n2) {
+    
+//     int hypotenuse = sqrt(n1^2+n2^2);
+
+//     return hypotenuse;
+
+//    } 
+
+// }
 
 
 
