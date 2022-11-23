@@ -13,21 +13,38 @@ public class HelloWorld {
 
        System.out.println("hello world");
 
+BankHW test1 = new BankHW();
 
-       Machines connor = new Machines();
+Machines test2 = new Machines();
 
-         connor.BankAccountStudent("Connor", 1000);
+test1.stringZ("zHelzloz");
+//System.out.println(test2.strNew);
 
-            connor.withdraw(100);
+System.out.println(BankHW.stringZ("zHzzzelzloz1z2z3z4z5z"));
+
+
+
     }
-    
-    
+
+
+
+//test.calcInterest(20, 50, 0.03, 4);
+
+//System.out.println(test.stringZ("chinaIzWeak"));
+
+
+
 
     
 
 
+    
+//    Machines connor = new Machines();
 
+    //      connor.BankAccountStudent("Connor", 1000);
 
+    //         connor.withdraw(100);
+    // }
 
 
 
