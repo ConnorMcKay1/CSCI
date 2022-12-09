@@ -107,10 +107,16 @@ public class HelloWorld {
 ArrayList<Integer> numbers = new ArrayList<Integer>();
         Scanner input = new Scanner(System.in);
         int num = 1;
-        while (num != 0) {
+        int runner = 1;
+        while (runner != 0) {
             System.out.println("Enter a number: ");
             num = input.nextInt();
-            numbers.add(num);
+           // numbers.add(num);
+           if (num != 0) {
+                numbers.add(num);
+            } else {
+                runner = 0;
+            }
         }
         System.out.println(numbers);
         int largest = numbers.get(0);
@@ -133,7 +139,8 @@ ArrayList<Integer> numbers = new ArrayList<Integer>();
                 if ((i + 1) % 3 == 0) {
                     System.out.println();
                 }
-            }
+            }   //what ever the remainder is offset it by one, this means ask for the user to input one less number than what the remainder is
+            //youre going to have to find the remainder from the modular division and then use that as the number of times you ask the user to input a number (subtract 1 from the remainder)
         } else {
             System.out.println("Please enter 2 more numbers to create the matrix...");
             // find a way to make it so that the user can only enter 2 more numbers
@@ -145,7 +152,7 @@ ArrayList<Integer> numbers = new ArrayList<Integer>();
                 num2 = input.nextInt();
                 numbers.add(num2);
             }
-            for (int i = 0; i < numbers.size(); i++) {
+            for (int i = 19; i < numbers.size(); i++) {
                 System.out.print(numbers.get(i) + " ");
                 if ((i + 1) % 3 == 0) {
                     System.out.println();
