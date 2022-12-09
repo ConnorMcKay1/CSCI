@@ -65,7 +65,7 @@ System.out.println("              Countries   Gold     Silver     Bronze   Total
                 total += count[j][i];
             }             
             
-        System.out.printf("                 %.01d", total);
+        System.out.printf("                 %15d", total);
 
          }
         
