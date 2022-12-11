@@ -74,35 +74,35 @@ public class HelloWorld {
         System.out.println(days);
 
 // Question 3
-        // a) create an ArrayList and prompt the user for numbers to add to it until the
-        // number 0 is selected
-        // b) return the largest and smallest number
-        // c) return the ArrayList sorted smallest to largest
-        // d) take that ArrayList see if its size is divisable by 3 and then output the
-        // ArrayList in a matrix format
-        // NOTE: make the matrix n X 3 so it can be n rows by 3 columns
-        // EX. ArrayList [1,2,3,4,5,6,7,8,9]
-        // 1 2 3
-        // 4 5 6
-        // 7 8 9
-        // NOTE: If the ArrayList is NOT divisable by 3 ask the user for more numbers
-        // and add them until it is
-        // ArrayList Size: 7
-        // Please enter 2 more numbers to create the matrix...
-        //
-        // Hint 1: use collections sort to sort the numbers
-        // Hint 2: you can see if the size of the array list is divisible by 3 by
-        // running:
-        // numbers.size()%3==0
-        // Hint 3: You can use this logic to print the array list in a 3x3 pattern once
-        // its created:
-        // for(int i=0;i<numbers.size();i++)
-        // {
-        // System.out.print(numbers.get(i)+" ");
-        // if((i+1)%3==0)
-        // {
-        // System.out.println();
-        // }
+//         a) create an ArrayList and prompt the user for numbers to add to it until the
+//         number 0 is selected
+//         b) return the largest and smallest number
+//         c) return the ArrayList sorted smallest to largest
+//         d) take that ArrayList see if its size is divisable by 3 and then output the
+//         ArrayList in a matrix format
+//         NOTE: make the matrix n X 3 so it can be n rows by 3 columns
+//         EX. ArrayList [1,2,3,4,5,6,7,8,9]
+//         1 2 3
+//         4 5 6
+//         7 8 9
+//         NOTE: If the ArrayList is NOT divisable by 3 ask the user for more numbers
+//         and add them until it is
+//         ArrayList Size: 7
+//         Please enter 2 more numbers to create the matrix...
+        
+//         Hint 1: use collections sort to sort the numbers
+//         Hint 2: you can see if the size of the array list is divisible by 3 by
+//         running:
+//         numbers.size()%3==0
+//         Hint 3: You can use this logic to print the array list in a 3x3 pattern once
+//         its created:
+//         for(int i=0;i<numbers.size();i++)
+//         {
+//         System.out.print(numbers.get(i)+" ");
+//         if((i+1)%3==0)
+//         {
+//         System.out.println();
+//         }
 
 ArrayList<Integer> numbers = new ArrayList<Integer>();
         Scanner input = new Scanner(System.in);
