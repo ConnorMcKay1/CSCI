@@ -10,7 +10,7 @@ public class Machines {
         System.out.println("hello mandy");
         Machines machine = new Machines();
         //machine.runningSum();
-        machine.userPassword("ZZZZ", alphabet);
+        //machine.userPassword("ZZZZ", alphabet);
 
     }
 
@@ -100,6 +100,27 @@ public class Machines {
 
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -158,6 +179,6 @@ public class Machines {
 
     */
 
-    
-}
+
+
 
